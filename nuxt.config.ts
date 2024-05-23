@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules:['@sidebase/nuxt-auth'],
   auth: {
+    isEnabled: true,
     provider: {
         type: 'authjs'
     }
