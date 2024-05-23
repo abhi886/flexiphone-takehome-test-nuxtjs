@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@sidebase/nuxt-auth": "^0.7.2",
     "autoprefixer": "^10.4.19",
     "nuxt": "^3.11.2",
     "postcss": "^8.4.38",
