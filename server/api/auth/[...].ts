@@ -8,5 +8,6 @@ export default NuxtAuthHandler({
            clientId: process.env.CLIENT_ID,
            clientSecret: process.env.CLIENT_SECRET
         })
-    ]
+    ],
+    secret: 'my-superb-secret',
 })
