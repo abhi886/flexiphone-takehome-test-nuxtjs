@@ -1,79 +1,23 @@
 # flexiphone-takehome-test-nuxtjs
-This repo will host the code for UI take home test for flexiphone
+This repo is a simple Nuxt 3 based system that allows users to view the products if XYZ shopping team. It allows users to add the product to cart only if its logged in. 
 
-# Nuxt 3 Minimal Starter
+# Libraries and Tools Used
+- Nuxt 3 as a Vue framework is used to complete the project
+- TailwindCSS is used as a Designing Framework
+- Vitest is use as a test runner
+# How to run 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Given node an npm is available in the maching, run the followign command
+- git clone https://github.com/abhi886/flexiphone-takehome-test-nuxtjs.git
+- cd flexiphone-takehome-test-nuxtjs
+- npm i
+- npm run dev - to run the development server
+- you can view the app on `http://localhost:3000`
+  
+## Running Test
+- To run the tests run npm test on project root directory
+  Current code coverage is 0%, will be aimed to be greated than 98%.
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## View the app in production
+- https://flexiphone-takehome-test-nuxtjs.vercel.app/
 
