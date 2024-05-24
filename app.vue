@@ -1,10 +1,8 @@
-<script>
-  import Auth from '@/components/Auth/Auth.vue'
 
-</script>
 <template>
   <div>
-<Auth />
+    <NuxtLayout>
     <NuxtPage />
+  </NuxtLayout>
   </div>
 </template>
