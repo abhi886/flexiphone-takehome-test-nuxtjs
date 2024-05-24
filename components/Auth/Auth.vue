@@ -10,8 +10,8 @@ function handleSignOut() {
 
 <template>
   <div class="w-full max-w-6xl mx-auto bg-white px-5 py-4 rounded-t shadow-sm">
-    <div class="flex items-center justify-between">
-      <div class="flex items-center space-x-2">
+    <div class="flex items-center justify-between space-x-4">
+      <div class="flex items-center space-x-4">
         <img
           v-if="status === 'authenticated' && data?.user?.image"
           class="w-12 h-12 rounded-full"
